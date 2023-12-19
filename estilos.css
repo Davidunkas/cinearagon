@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+h1 {
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.427);
+  }
+
+  .titulo1 {
+    color: white;
+    padding: 30px 100px;
+  }
+
+    .noticia1 {
+        color: white;
+        padding: 0 100px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .noticiabloque1 {
+        display: flex;
+        justify-content: top;
+    }
+    
+    .seguir1 {
+        text-align: center;
+        margin-top: -30px;
+    }
+
+    
+        
+    .boton {
+        background-color: var(--color-principal);
+        padding: 20px;
+        text-decoration: none;
+        font-weight: 700;
+        border: 5px outset red;
+        border-radius: 15px;
+        color: red;
+    }
+
+        .boton:hover {
+            background-color: red;
+            padding: 20px;
+            text-decoration: none;
+            font-weight: 700;
+            border: 5px outset var(--color-principal);
+            border-radius: 15px;
+            color: var(--color-principal);
+    }
+    .subrayado:hover {
+        text-decoration: underline;
+    }
+
+    .noticia1 {
+        text-decoration: none;
+    }
+
+    .bandera {
+        width: 100vw;
+        margin: 200px 0 0 0;
+        
+    }
+.banner {
+    display: flex;
+    width: 100vw;
+    text-align: center;
+}
+    .imagen1 {
+padding: 0 50px;
+
+    }
+
+    .seguir1:hover {
+        text-decoration: underline;
+    }
+
+    .titulo1:hover {
+        text-decoration: underline;
+    }
+  
+.margenpie {
+    padding: 50px;
+}
+
+.banderacabecera {
+    width: 100vw;
+}
+
+.seccioncarrusel {
+    display: flex; 
+    justify-content: space-between;    
+    align-items: center;
+    padding: 0 10px;
+}
+    .peliculas-top {
+        display: flex; 
+        justify-content: center;    
+        align-items: top;
+    }
+.peliculas-top div {
+    width: 150px;
+    padding: 50px;
+}
+.portada {
+    border-radius: 12px;
+    width: 100%;
+    align-items: center;
+}
+.flecha {
+    width: 5%;
+    align-items: center;
+    }
+
+    .imagen1 {
+        width: 500px;
+    }
+
+    .especificaciones {
+        width: 500px;
+    }
+
+    .titulosinopsis:hover {
+        text-decoration: underline;
+    }
+    
+body {
+    
+    font-family: "Solway", sans-serif;
+
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+    /*VARIABLES DE CSS*/
+
+    --color-principal: #fce402 ;
+    --color-acento: red ;
+    --color-claro: white ;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+}
+h3 {
+    color: black;
+    text-align: center;
+}
+
+.divcontacto {
+    background-color: orange;
+    margin: 800;
+    flex-direction: column;
+}
+.sinopsis {
+    padding: 50px 0;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+
+.logoinicio {
+    width: 100px;
+}
+/****** #región BARRA DE NAVEGACIÓN******/
+nav {
+background-color: var(--color-principal);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 40px;
+
+}
+
+.divheroes {
+    height: 1000%;
+    text-align: right;
+    width: 50vw;
+}
+
+.tituloheroes {
+width: 50vw;
+color: var(--color-claro);
+margin: 50px 100px;
+}
+
+.fila1 {
+    display: flex;
+}
+
+.heroesbn {
+    width: 50vw;
+}
+
+/*SOLAMENTE PARA MOVIL*/
+@media only screen and (max-width: 600px)  {
+    li a {
+        display: none;
+    }
+
+    .desplegable {
+        display: inline-block; 
+    }
+}
+ 
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+color: black;
+padding: 5px 7px;
+text-decoration: none;
+font-size: 30px;
+font-weight: 900;
+}
+
+nav a:hover {
+    color: var(--color-acento);
+
+}
+
+.mensaje {
+resize: none;
+width: 18vw;
+height: 2vw;
+background-color: orange;
+padding: 0px 15px;
+}
+
+.bloque1estrella {
+    display: flex;
+}
+
+.flechaatras2 {
+width: 50px;
+height: 50px;
+margin-top: 20px;
+}
+
+.notestrella a {
+    color: white;
+    text-decoration: none;
+   
+}
+.label {
+    text-align: left;
+}
+
+.tituloestrella {
+    text-align: center;
+    color: white;
+    
+}
+
+.periodico {
+    text-align: left;
+    rotate: 180deg;
+}
+
+
+textarea.mensaje {
+    height: 200px;
+    padding: 15px;
+}
+
+.flexcontacto {
+display: flex;
+text-align: center;
+}
+
+.captura {
+    margin-left: 20vw;
+}
+
+.formulario {
+    background-color: orangered;
+    padding: 15px;
+    margin-top: 20px;
+    width: 20vw;
+}
+
+.fondocontacto {
+    flex-direction: column;
+    margin: 100px 100px;
+}
+
+.desplegable {
+    color: var(--color-acento);
+    padding-right: 25px;
+    display: none;
+}
+/******CABECERA*****/
+header {
+    background-color: #fce402 ;
+    text-align: left;
+    padding: 20px 30px;  
+}
+main {
+    height: 300px;
+}
+/*****PIE DE PÁGINA*****/
+footer {
+    background-color: black;
+    color: white; 
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+
