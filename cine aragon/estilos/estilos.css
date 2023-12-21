@@ -6,8 +6,60 @@ h1 {
   .titulo1 {
     color: white;
     padding: 30px 100px;
+    text-align: justify;
   }
+.fondowarner {
+    background-image: url(../images/warner.png);
+    background-size: 100%;
+    background-repeat: none; 
+    width: 1920px;
+    height: 1082px;
+}
+.fondowarner:hover {
+    background-image: url(../images/sobre.png);
+  
+}
 
+.volverarriba {
+
+    background-color: var(--color-principal);
+  border-color: red;
+  border-width: 4px;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  
+}
+
+.volverarriba:hover {
+
+    background-color: red;
+  border-color: var(--color-principal);
+  border-width: 4px;
+  color: var(--color-principal);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  
+}
+
+.volver {
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flechasinfondo {
+    width: 200px;
+  
+}
     .noticia1 {
         color: white;
         padding: 0 100px;
@@ -135,6 +187,12 @@ body {
     --color-acento: red ;
     --color-claro: white ;
 }
+
+.fondoperiodico {
+    background-image: url(../images/fondo.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+}
 h2 {
     color: rgb(255, 255, 255);
     text-align: center;
@@ -217,6 +275,61 @@ font-weight: 900;
 nav a:hover {
     color: var(--color-acento);
 
+}
+
+.tituloestrella {
+    margin-left: 25vw;
+    margin-right: 50px;
+    font-size: 90px;
+    text-align: center;
+}
+
+.flexnoticia1 {
+    display: flex;
+    align-items: top;
+}
+
+.fotonoticia1 {
+    margin-left: 20px;
+    height: 500px;
+    padding-bottom: 0;
+    padding-left: 100px;
+}
+
+.bloque1estrella {
+    margin-left: 30vw;
+}
+
+.titulo1 {
+    text-decoration: none;
+    
+}
+.cuerponoticia {
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: -20px;
+    margin-top: -6px;    
+}
+
+.cuerponoticia2 {
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+
+.fotonoticia2 {
+   height: 1118px;
+   
+   padding-left: 100px;
+   text-align: center;
+  
+
+
+   
 }
 
 .mensaje {
